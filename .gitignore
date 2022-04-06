@@ -2,3 +2,5 @@ node_modules
 .idea
 .cache
 /dont_download_info_files
+public
+.cache
