@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import qs from 'qs';
 import InputMask from 'react-input-mask';
 
-import '../Contact/contact-form.css';
+import './contact-form.css';
 import './popup.css';
 
 import telegram from '../../images/social-icons/telegram2.png';

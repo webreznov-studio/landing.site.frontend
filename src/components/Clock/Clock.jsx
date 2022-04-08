@@ -88,7 +88,7 @@ export const Clock = () => {
                                     </div>
                                     <div id="q">
                                         <a
-                                            href=""
+                                            href="#"
                                             style={{
                                                 position: 'relative',
                                                 zIndex: 1000,

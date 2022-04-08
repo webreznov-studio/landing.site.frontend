@@ -29,9 +29,7 @@ export const Offer = (props) => (
                     </div>
                 </div>
                 <div className="offer_slider">
-                        <img src={macbook} className="macbook" alt="slider-bg" />
-                    {/* <div className='mac_wrapper'>
-                    </div> */}
+                    <img src={macbook} className="macbook" alt="slider-bg" />
                     <SliderPortfolio />
                 </div>
             </div>
