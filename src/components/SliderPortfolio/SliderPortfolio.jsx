@@ -23,27 +23,31 @@ const carouselConfig = {
 export const SliderPortfolio = () => {
     return (
         <SliderStyled>
-            <Carousel {...carouselConfig}>
-                <div>
-                    <img src="/portfolio/webreznov-1.jpg" alt="astrolog" width="300px" />
-                </div>
-                <div>
-                    <img src="/portfolio/webreznov-2.jpg" alt="astrolog" width="300px" />
-                </div>
-                <div>
-                    <img src="/portfolio/webreznov-3.jpg" alt="astrolog" width="300px" />
-                </div>
-                <div>
-                    <img src="/portfolio/webreznov-4.jpg" alt="astrolog" width="300px" />
-                </div>
-                <div>
-                    <img src="/portfolio/webreznov-5.jpg" alt="astrolog" width="300px" />
-                </div>
-                <div>
-                    <img src="/portfolio/webreznov-6.jpg" alt="astrolog" width="300px" />
-                </div>
-            </Carousel>
-            <Clock />
+            <div style={{width: '338px', height: '190px'}}>
+                <Carousel {...carouselConfig}>
+                    <div>
+                        <img src="/portfolio/webreznov-1.jpg" alt="astrolog" />
+                    </div>
+                    <div>
+                        <img src="/portfolio/webreznov-2.jpg" alt="astrolog" />
+                    </div>
+                    <div>
+                        <img src="/portfolio/webreznov-3.jpg" alt="astrolog" />
+                    </div>
+                    <div>
+                        <img src="/portfolio/webreznov-4.jpg" alt="astrolog" />
+                    </div>
+                    <div>
+                        <img src="/portfolio/webreznov-5.jpg" alt="astrolog" />
+                    </div>
+                    <div>
+                        <img src="/portfolio/webreznov-6.jpg" alt="astrolog" />
+                    </div>
+                </Carousel>
+            </div>
+            <div>
+                <Clock />
+            </div>
         </SliderStyled>
     );
 };

@@ -1,12 +1,12 @@
 import React from 'react';
-import './offer.css';
-import macbook from '../../images/macbook_PNG50 1.png';
+import macbook from '../../images/macbook.png';
 import bgBottom from '../../images/wave-black.png';
 import bgTop from '../../images/Rectangle11min.png';
 import { SliderPortfolio } from '../SliderPortfolio';
+import { OfferWrapper } from './styles';
 
 export const Offer = () => (
-    <>
+    <OfferWrapper>
         <section className="offer">
             <img className="bg-op" src={bgTop} alt="bg-top" />
             <div className="container">
@@ -33,5 +33,5 @@ export const Offer = () => (
             </div>
             <img className="bg-bottom" src={bgBottom} alt="bg-bottom" />
         </section>
-    </>
+    </OfferWrapper>
 );
