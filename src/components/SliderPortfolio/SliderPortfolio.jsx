@@ -25,22 +25,22 @@ export const SliderPortfolio = () => {
         <SliderStyled>
             <Carousel {...carouselConfig}>
                 <div>
-                    <img src="/portfolio/webreznov-1.png" alt="astrolog" width="300px" />
+                    <img src="/portfolio/webreznov-1.jpg" alt="astrolog" width="300px" />
                 </div>
                 <div>
-                    <img src="/portfolio/webreznov-2.png" alt="astrolog" width="300px" />
+                    <img src="/portfolio/webreznov-2.jpg" alt="astrolog" width="300px" />
                 </div>
                 <div>
-                    <img src="/portfolio/webreznov-3.png" alt="astrolog" width="300px" />
+                    <img src="/portfolio/webreznov-3.jpg" alt="astrolog" width="300px" />
                 </div>
                 <div>
-                    <img src="/portfolio/webreznov-4.png" alt="astrolog" width="300px" />
+                    <img src="/portfolio/webreznov-4.jpg" alt="astrolog" width="300px" />
                 </div>
                 <div>
-                    <img src="/portfolio/webreznov-5.png" alt="astrolog" width="300px" />
+                    <img src="/portfolio/webreznov-5.jpg" alt="astrolog" width="300px" />
                 </div>
                 <div>
-                    <img src="/portfolio/webreznov-6.png" alt="astrolog" width="300px" />
+                    <img src="/portfolio/webreznov-6.jpg" alt="astrolog" width="300px" />
                 </div>
             </Carousel>
             <Clock />
