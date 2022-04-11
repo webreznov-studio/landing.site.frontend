@@ -27,7 +27,7 @@ export const Projects = () => {
                 <Title />
                 <Box animation={{type: 'zoomIn', duration: 2000}}>
                     <Grid columns='small' gap='medium' >
-                        {data && data.length && mapDataToClient[2]}
+                        {data && data.length && mapDataToClient}
                     </Grid>
                 </Box>
             </Wrapper>
