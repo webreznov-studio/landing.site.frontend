@@ -28,7 +28,7 @@ export const FormRequest = () => {
             method: 'POST',
             headers: {'content-type': 'application/x-www-form-urlencoded'},
             data: qs.stringify(dataObj),
-            url: 'http://localhost:8084/api/email/add',
+            url: 'https://webreznov-landing-site-request.herokuapp.com/api/email/add' || 'http://localhost:8084/api/email/add',
         });
     };
 
